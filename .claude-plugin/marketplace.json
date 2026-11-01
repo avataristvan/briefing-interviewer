@@ -1,0 +1,14 @@
+{
+  "name": "briefing-interviewer",
+  "owner": {
+    "name": "Istvan Lovas"
+  },
+  "plugins": [
+    {
+      "name": "briefing-interviewer",
+      "source": "./",
+      "description": "Interviews you about a plan before anything gets built and files a carry-only-conclusions briefing."
+    }
+  ],
+  "description": "Interviewer skill that ends in an implementation-ready briefing."
+}

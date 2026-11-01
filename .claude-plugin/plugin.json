@@ -1,0 +1,10 @@
+{
+  "name": "briefing-interviewer",
+  "version": "0.1.0",
+  "description": "Interviews you about a plan before anything gets built, following Chelsea Troy's four practices on top of Matt Pocock's grilling, and files a carry-only-conclusions briefing.",
+  "author": {"name": "Istvan Lovas"},
+  "homepage": "https://github.com/avataristvan/briefing-interviewer",
+  "repository": "https://github.com/avataristvan/briefing-interviewer",
+  "license": "MIT",
+  "keywords": ["claude-code", "requirements", "interview", "briefing", "domain-driven-design"]
+}
