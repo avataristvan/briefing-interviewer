@@ -135,15 +135,15 @@ Status: umsetzungsreif | Phase-Handoff (<Mode> → <Nächstes Register>)
 
 ## Start with
 
-- umsetzungsreif: Neue Session mit diesem Briefing, dann `/chunk-plan`.
+- umsetzungsreif: Neue Session mit diesem Briefing, dann `/dev-team:chunk-plan`.
 - Phase-Handoff: Neue Session im Register <next>, mit diesem Handoff, dann `/briefing-interviewer:brief-me`.
 ```
 
-English headings: Charter, Terminology, Mode (this session), Next register, Conclusions, Open points, Start with; Status `implementation-ready` | `phase handoff (<Mode> → <Next register>)`, e.g. `phase handoff (Exploring → Brainstorming)`. Format line: "Format: carry-only-conclusions (practice 3). Charter, conclusions, open points, no history." Start with: "New session with this briefing, then `/chunk-plan`." | "New session in register <next>, with this handoff, then `/briefing-interviewer:brief-me`."
+English headings: Charter, Terminology, Mode (this session), Next register, Conclusions, Open points, Start with; Status `implementation-ready` | `phase handoff (<Mode> → <Next register>)`, e.g. `phase handoff (Exploring → Brainstorming)`. Format line: "Format: carry-only-conclusions (practice 3). Charter, conclusions, open points, no history." Start with: "New session with this briefing, then `/dev-team:chunk-plan`." | "New session in register <next>, with this handoff, then `/briefing-interviewer:brief-me`."
 
 - Language: that of the target area's existing `docs/handoff-*.md`, else of its CLAUDE.md; if still unclear, ask in the charter.
 - **No history:** no Q&A transcript, no "first we discussed".
-- "Start with" names exactly one line (only the matching one, without the label), chosen by the gate: implementation-ready names `/chunk-plan` in a new session with this briefing (the briefing file, conclusions only, is the hard boundary); otherwise the next register and `/briefing-interviewer:brief-me`.
+- "Start with" names exactly one line (only the matching one, without the label), chosen by the gate: implementation-ready names `/dev-team:chunk-plan` in a new session with this briefing (the briefing file, conclusions only, is the hard boundary); otherwise the next register and `/briefing-interviewer:brief-me`.
 
 ### Glossary (optional)
 
@@ -155,7 +155,7 @@ At the end, if ai-mem is installed, list record candidates as plain text (`Decis
 
 ### Never
 
-- Never invoke `/chunk-plan` or `/dev-team`, and never start implementing, not even when the briefing is implementation-ready. Name `/chunk-plan` in "Start with" only.
+- Never invoke `/dev-team:chunk-plan` or `/dev-team:dev-team`, and never start implementing, not even when the briefing is implementation-ready. Name `/dev-team:chunk-plan` in "Start with" only.
 - Never append to an existing handoff.
 - Never write records.
 - The session ends after the briefing is written and its path is shown.

@@ -31,4 +31,4 @@ Status: implementation-ready
 
 ## Start with
 
-New session with this briefing, then `/chunk-plan`.
+New session with this briefing, then `/dev-team:chunk-plan`.
